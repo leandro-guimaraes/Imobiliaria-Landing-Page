@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Imobiliaria</title>
+		<link
+			href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="vendors/css/style.min.css" />
+	</head>
+
+	<body>
+		<!-- Header inicio -->
+		<div class="header-wrap">
+			<header>
+				<div class="container">
+					<!-- Logo inicio -->
+					<div class="logo">
+						<a href="#">
+							<img src="vendors/images/logo.svg" alt="Imobiliaria" />
+						</a>
+					</div>
+					<!-- Logo fim -->
+					<button class="menu-toggle">
+						<i class="ri-menu-fill bar-icon"></i>
+						<i class="ri-close-fill close-icon"></i>
+					</button>
+					<div class="header-right">
+						<!-- Header Menu inicio -->
+						<div class="menu">
+							<ul>
+								<li><a href="#">Inicio</a></li>
+								<li><a href="#">Imóveis</a></li>
+								<li><a href="#">Agentes</a></li>
+								<li><a href="#">Blog</a></li>
+							</ul>
+						</div>
+						<!-- Header Menu fim -->
+						<!-- Header Cta inicio -->
+						<div class="cta">
+							<a href="#" class="btn btn-outline-primary">Entre</a>
+						</div>
+						<!-- Header Cta fim -->
+					</div>
+				</div>
+			</header>
+		</div>
+		<!-- Header fim -->
+
+		<div class="banner-wrap">
+			<div class="container">
+				<div class="banner-box">
+					<!-- Banner Imagem inicio -->
+					<div class="banner-box__img">
+						<img
+							src="vendors/images/banner-image.jpg"
+							width="1300"
+							height="634"
+							alt=""
+						/>
+					</div>
+					<!-- Banner Imagem fim -->
+					<!-- Banner Content inicio -->
+					<div class="banner-box__content">
+						<h1 class="banner-box__title h1">
+							A maneira mais fácil de encontrar um imóvel perfeito
+						</h1>
+						<div class="banner-box__txt text-ex-large">
+							Prestamos um serviço completo de venda, compra ou aluguel de imoveis.
+						</div>
+					</div>
+					<!-- Banner Content fim -->
+					<!-- Banner Tab inicio  -->
+					<div class="banner-tab-wrap">
+						<!-- Tab Nav inicio -->
+						<ul class="nav" role="tablist">
+							<li class="nav-item" role="presentation">
+								<button
+									class="tab-item active"
+									data-bs-toggle="pill"
+									data-bs-target="#rent"
+									type="button"
+									role="tab"
+									aria-selected="true"
+								>
+									Alugue
+								</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button
+									class="tab-item"
+									data-bs-toggle="pill"
+									data-bs-target="#buy"
+									type="button"
+									role="tab"
+									aria-selected="false"
+								>
+									Compre
+								</button>
+							</li>
+							<li class="nav-item" role="presentation">
+								<button
+									class="tab-item"
+									data-bs-toggle="pill"
+									data-bs-target="#sell"
+									type="button"
+									role="tab"
+									aria-selected="false"
+								>
+									Venda
+								</button>
+							</li>
+						</ul>
+						<!-- Tab Nav fim -->
+						<!-- Tab Content inicio -->
+						<div class="tab-content" id="pills-tabContent">
+							<div class="tab-pane fade show active" id="rent" role="tabpanel">
+								<form class="form-wrap">
+									<div class="row align-items-end">
+										<div class="col-md-10">
+											<div class="row">
+												<div class="col-md-6 col-lg-4">
+													<div class="form-group mb-lg-0">
+														<label class="form-label">Localização</label>
+														<select class="form-control">
+															<option>Selecione sua cidade</option>
+															<option>Amsterdam</option>
+															<option>Barcelona</option>
+															<option>Beijing</option>
+															<option>Beirut</option>
+															<option>Bergen</option>
+															<option>Copenhagen</option>
+															<option>Doha</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-md-6 col-lg-4">
+													<div class="form-group mb-lg-0">
+														<label class="form-label">Tipo de imovél</label>
+														<select class="form-control">
+															<option>Escolha o tipo de propriedade</option>
+															<option>Apartamento Residencial</option>
+															<option>Piso Independente / sozinho no local</option>
+															<option>Casa / Vila Independente</option>
+															<option>Terreno Residencial</option>
+															<option>1 quarto / Estúdio</option>
+															<option>Casa de Fazenda</option>
+															<option>Apartamentos com serviços</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-md-6 col-lg-4">
+													<div class="form-group mb-md-0">
+														<label class="form-label">Faixa de preço</label>
+														<select class="form-control">
+															<option>Escolha a faixa de preço</option>
+															<opção>R$ 0-1.000</opção>
+															<opção>R$ 1.000 a R$ 2.000</opção>
+															<opção>R$ 2.000 a R$ 3.000</opção>
+															<opção>R$3.000-R$4.000</opção>
+															<opção>R$ 4.000 a R$ 5.000</opção>
+														</select>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-2 d-md-flex">
+											<button class="btn btn-primary btn-icon ms-auto">
+												<i class="ri-search-2-line"></i>
+											</button>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="tab-pane fade" id="buy" role="tabpanel">
+								<form class="form-wrap">
+									<div class="row align-items-end">
+										<div class="col-md-10">
+											<div class="row">
+												<div class="col-md-6 col-lg-4">
+													<div class="form-group mb-lg-0">
+														<label class="form-label">Localização</label>
+														<select class="form-control">
+															<option>Selecione sua cidade</option>
+															<option>Amsterdam</option>
+															<option>Barcelona</option>
+															<option>Beijing</option>
+															<option>Beirut</option>
+															<option>Bergen</option>
+															<option>Copenhagen</option>
+															<option>Doha</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-md-6 col-lg-4">
+													<div class="form-group mb-lg-0">
+														<label class="form-label">Tipo de imovél</label>
+														<select class="form-control">
+															<option>Escolha o tipo de propriedade</option>
+															<option>Apartamento Residencial</option>
+															<option>Piso Independente / sozinho no local</option>
+															<option>Casa / Vila Independente</option>
+															<option>Terreno Residencial</option>
+															<option>1 quarto / Estúdio</option>
+															<option>Casa de Fazenda</option>
+															<option>Apartamentos com serviços</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-md-6 col-lg-4">
+													<div class="form-group mb-md-0">
+														<label class="form-label">Faixa de preço</label>
+														<select class="form-control">
+															<option>Escolha a faixa de preço</option>
+															<opção>R$ 0-1.000</opção>
+															<opção>R$ 1.000 a R$ 2.000</opção>
+															<opção>R$ 2.000 a R$ 3.000</opção>
+															<opção>R$3.000-R$4.000</opção>
+															<opção>R$ 4.000 a R$ 5.000</opção>
+														</select>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-2 d-md-flex">
+											<button class="btn btn-primary btn-icon ms-auto">
+												<i class="ri-search-2-line"></i>
+											</button>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="tab-pane fade" id="sell" role="tabpanel">
+								<form class="form-wrap">
+									<div class="row align-items-end">
+										<div class="col-md-10">
+											<div class="row">
+												<div class="col-md-6 col-lg-4">
+													<div class="form-group mb-lg-0">
+														<label class="form-label">Localização</label>
+														<select class="form-control">
+															<option>Selecione sua cidade</option>
+															<option>Amsterdam</option>
+															<option>Barcelona</option>
+															<option>Beijing</option>
+															<option>Beirut</option>
+															<option>Bergen</option>
+															<option>Copenhagen</option>
+															<option>Doha</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-md-6 col-lg-4">
+													<div class="form-group mb-lg-0">
+														<label class="form-label">Tipo de imovél</label>
+														<select class="form-control">
+															<option>Escolha o tipo de propriedade</option>
+															<option>Apartamento Residencial</option>
+															<option>Piso Independente / sozinho no local</option>
+															<option>Casa / Vila Independente</option>
+															<option>Terreno Residencial</option>
+															<option>1 quarto / Estúdio</option>
+															<option>Casa de Fazenda</option>
+															<option>Apartamentos com serviços</option>
+														</select>
+													</div>
+												</div>
+												<div class="col-md-6 col-lg-4">
+													<div class="form-group mb-md-0">
+														<label class="form-label">Faixa de preço</label>
+														<select class="form-control">
+															<option>Escolha a faixa de preço</option>
+															<opção>R$ 0-1.000</opção>
+															<opção>R$ 1.000 a R$ 2.000</opção>
+															<opção>R$ 2.000 a R$ 3.000</opção>
+															<opção>R$3.000-R$4.000</opção>
+															<opção>R$ 4.000 a R$ 5.000</opção>
+														</select>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-2 d-md-flex">
+											<button class="btn btn-primary btn-icon ms-auto">
+												<i class="ri-search-2-line"></i>
+											</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+						<!-- Tab Content fim -->
+					</div>
+					<!-- Banner Tab fim  -->
+				</div>
+			</div>
+		</div>
+
+		<div class="countries-wrap">
+			<!-- Countries Section inicio -->
+			<div class="container">
+				<div class="countries-wrap__title">
+					<div class="row justify-content-center">
+						<div class="col-xl-5 col-lg-7 col-md-10">
+							<h2 class="h2 text-center">
+								Estamos disponíveis em muitos países conhecidos
+							</h2>
+						</div>
+					</div>
+				</div>
+				<div class="countries-list">
+					<!-- Countries List inicio -->
+					<ul class="row">
+						<li class="col-lg-3 col-md-6 col-sm-6">
+							<div class="countries-box">
+								<div class="countries-box__title">Estados unidos</div>
+								<div class="countries-box__img">
+									<img src="vendors/images/countrie-img-1.jpg" alt="" />
+								</div>
+							</div>
+						</li>
+						<li class="col-lg-3 col-md-6 col-sm-6">
+							<div class="countries-box">
+								<div class="countries-box__title">Espanha</div>
+								<div class="countries-box__img">
+									<img src="vendors/images/countrie-img-2.jpg" alt="" />
+								</div>
+							</div>
+						</li>
+						<li class="col-lg-3 col-md-6 col-sm-6">
+							<div class="countries-box">
+								<div class="countries-box__title">Londres</div>
+								<div class="countries-box__img">
+									<img src="vendors/images/countrie-img-3.jpg" alt="" />
+								</div>
+							</div>
+						</li>
+						<li class="col-lg-3 col-md-6 col-sm-6">
+							<div class="countries-box">
+								<div class="countries-box__title">França</div>
+								<div class="countries-box__img">
+									<img src="vendors/images/countrie-img-4.jpg" alt="" />
+								</div>
+							</div>
+						</li>
+					</ul>
+					<!-- Countries List fim -->
+				</div>
+			</div>
+		</div>
+		<!-- Countries Section fim -->
+
+		<div class="recently-added-wrap">
+			<div class="container">
+				<div
+					class="recently-added-wrap__title d-md-flex justify-content-between"
+				>
+					<h2 class="h2">Adicionado recentemente</h2>
+					<div class="cta">
+						<a href="#" class="btn btn-link">Ver tudo</a>
+					</div>
+				</div>
+
+				<div class="property-list">
+					<ul class="row">
+						<li class="col-md-6">
+							<div class="property-box">
+								<div class="property-box__left">
+									<img src="https://picsum.photos/id/163/158/200" alt="" />
+								</div>
+								<div class="property-box__right">
+									<div class="property-box__title h3">
+										<a href="#">103/143 West Street, Crows Nest</a>
+									</div>
+									<div class="property-box__amenities">
+										<span>4 quartos</span>
+										<span>130 m2</span>
+										<span>3 garagens</span>
+									</div>
+									<div class="property-box__post-price">
+										<div class="property-box__post-by">
+											Postado por <a href="#">Imobiliaria</a>
+										</div>
+										<div class="property-box__price">
+											<span class="badge">R$480.000,00</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="col-md-6">
+							<div class="property-box">
+								<div class="property-box__left">
+									<img src="https://picsum.photos/id/174/158/200" alt="" />
+								</div>
+								<div class="property-box__right">
+									<div class="property-box__title h3">
+										<a href="#">103/143 West Street, Crows Nest</a>
+									</div>
+									<div class="property-box__amenities">
+										<span>3 quartos</span>
+										<span>150 m2</span>
+										<span>2 garagens</span>
+									</div>
+									<div class="property-box__post-price">
+										<div class="property-box__post-by">
+											Postado por <a href="#">Imobiliaria</a>
+										</div>
+										<div class="property-box__price">
+											<span class="badge">R$500.600,00</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="col-md-6">
+							<div class="property-box">
+								<div class="property-box__left">
+									<img src="https://picsum.photos/id/164/158/200" alt="" />
+								</div>
+								<div class="property-box__right">
+									<div class="property-box__title h3">
+										<a href="#">103/143 West Street, Crows Nest</a>
+									</div>
+									<div class="property-box__amenities">
+										<span>5 quartos</span>
+										<span>170 m2</span>
+										<span>3 garagens</span>
+									</div>
+									<div class="property-box__post-price">
+										<div class="property-box__post-by">
+											Postado por <a href="#">Imobiliaria</a>
+										</div>
+										<div class="property-box__price">
+											<span class="badge">R$450.545,00</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="col-md-6">
+							<div class="property-box">
+								<div class="property-box__left">
+									<img src="https://picsum.photos/id/220/158/200" alt="" />
+								</div>
+								<div class="property-box__right">
+									<div class="property-box__title h3">
+										<a href="#">103/143 West Street, Crows Nest</a>
+									</div>
+									<div class="property-box__amenities">
+										<span>6 quartos</span>
+										<span>190 m2</span>
+										<span>5 garagens</span>
+									</div>
+									<div class="property-box__post-price">
+										<div class="property-box__post-by">
+											Postado por <a href="#">Imobiliaria</a>
+										</div>
+										<div class="property-box__price">
+											<span class="badge">R$750.445,00</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="col-md-6">
+							<div class="property-box">
+								<div class="property-box__left">
+									<img src="https://picsum.photos/id/232/158/200" alt="" />
+								</div>
+								<div class="property-box__right">
+									<div class="property-box__title h3">
+										<a href="#">103/143 West Street, Crows Nest</a>
+									</div>
+									<div class="property-box__amenities">
+										<span>4 quartos</span>
+										<span>160 m2</span>
+										<span>2 garagens</span>
+									</div>
+									<div class="property-box__post-price">
+										<div class="property-box__post-by">
+											Postado por  <a href="#">Imobiliaria</a>
+										</div>
+										<div class="property-box__price">
+											<span class="badge">R$455.865,00</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+						<li class="col-md-6">
+							<div class="property-box">
+								<div class="property-box__left">
+									<img src="https://picsum.photos/id/270/158/200" alt="" />
+								</div>
+								<div class="property-box__right">
+									<div class="property-box__title h3">
+										<a href="#">103/143 West Street, Crows Nest</a>
+									</div>
+									<div class="property-box__amenities">
+										<span>2 quartos</span>
+										<span>150 m2</span>
+										<span>2 garagens</span>
+									</div>
+									<div class="property-box__post-price">
+										<div class="property-box__post-by">
+											Postado por <a href="#">Imobiliaria</a>
+										</div>
+										<div class="property-box__price">
+											<span class="badge">R$350.535,00</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<div class="banner-wrap">
+			<div class="container">
+				<div class="banner-box">
+					<!-- Banner Image inicio -->
+					<div class="banner-box__img">
+						<img
+							src="vendors/images/banner-image-2.jpg"
+							width="1300"
+							height="482"
+							alt=""
+						/>
+					</div>
+					<!-- Banner Image fim -->
+					<!-- Banner Content inicio -->
+					<div class="banner-box__content">
+						<h1 class="banner-box__title h1">Encontre o seu melhor imóvel</h1>
+						<div class="banner-box__txt text-ex-large">
+							Prestamos um serviço completo de venda, compra ou aluguel de
+							imobiliária.
+						</div>
+						<div class="banner-box__cta">
+							<a href="#" class="btn btn-primary">Contate-nos</a>
+						</div>
+					</div>
+					<!-- Banner Content fim -->
+				</div>
+			</div>
+		</div>
+
+		<div class="footer-wrap">
+			<footer>
+				<div class="container">
+					<div class="row justify-content-between">
+						<div class="col-lg-4 col-md-8">
+							<div class="f-info">
+								<div class="f-logo pb-3">
+									<img src="vendors/images/logo.svg" alt="" />
+								</div>
+								<p class="text-small pb-3">
+								    "Em cada imóvel, uma história a contar,
+									na nossa imobiliária, qualidade a se destacar.
+									lares que se moldam aos sonhos a criar,
+									Nossa excelência é a garantia a brilhar."
+								</p>
+								<div class="d-none d-lg-block">
+									<div class="social-list pb-3">
+										<ul>
+											<li>
+												<a href="#" class="facebook" target="_blank"
+													><i class="ri-facebook-circle-fill"></i
+												></a>
+											</li>
+											<li>
+												<a href="#" class="twitter" target="_blank"
+													><i class="ri-twitter-fill"></i
+												></a>
+											</li>
+											<li>
+												<a href="#" class="instagram" target="_blank"
+													><i class="ri-instagram-fill"></i
+												></a>
+											</li>
+											<li>
+												<a href="#" class="linkedin" target="_blank"
+													><i class="ri-linkedin-box-fill"></i
+												></a>
+											</li>
+										</ul>
+									</div>
+									<p class="text-small">© 2024 . Todos os direitos reservados.</p>
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-7 col-md-12">
+							<div class="row">
+								<div class="col-md-3 col-sm-6 col-6 pb-4 pb-md-0">
+									<h5 class="h4 pb-3">Faça um tour</h5>
+									<div class="quick-links">
+										<ul>
+											<li><a href="#">Recursos</a></li>
+											<li><a href="#">Parceiros</a></li>
+											<li><a href="#">Preços</a></li>
+											<li><a href="#">Imoveis</a></li>
+											<li><a href="#">Suporte</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-4 col-sm-6 col-6 pb-4 pb-md-0">
+									<h5 class="h4 pb-3">Nossa empresa</h5>
+									<div class="quick-links">
+										<ul>
+											<li><a href="#">Sobre nós</a></li>
+											<li><a href="#">Agentes</a></li>
+											<li><a href="#">Blog</a></li>
+											<li><a href="#">Mídia</a></li>
+											<li><a href="#">Entre em contato conosco</a></li>
+										</ul>
+									</div>
+								</div>
+								<div class="col-md-5">
+									<h5 class="h4 pb-3">Se inscreva</h5>
+									<div class="subscribe-form-wrap">
+										<p class="text-small">
+											Inscreva-se para receber nossos últimos imoveis e notícias do blog.
+										</p>
+										<form class="subscribe-form form-wrap">
+											<div class="form-group">
+												<input
+													type="email"
+													class="form-control"
+													placeholder="Seu email"
+												/>
+												<div class="cta">
+													<button
+														class="btn btn-primary btn-icon btn-sm btn-rounded"
+													>
+														<i class="ri-arrow-right-line"></i>
+													</button>
+												</div>
+											</div>
+										</form>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="d-lg-none pt-4">
+						<div class="social-list pb-3">
+							<ul>
+								<li>
+									<a href="#" class="facebook" target="_blank"
+										><i class="ri-facebook-circle-fill"></i
+									></a>
+								</li>
+								<li>
+									<a href="#" class="twitter" target="_blank"
+										><i class="ri-twitter-fill"></i
+									></a>
+								</li>
+								<li>
+									<a href="#" class="instagram" target="_blank"
+										><i class="ri-instagram-fill"></i
+									></a>
+								</li>
+								<li>
+									<a href="#" class="linkedin" target="_blank"
+										><i class="ri-linkedin-box-fill"></i
+									></a>
+								</li>
+							</ul>
+						</div>
+						<p class="text-small">© 2024 .Todos os direitos reservados.</p>
+					</div>
+				</div>
+			</footer>
+		</div>
+
+		<script src="vendors/js/script.min.js"></script>
+	</body>
+</html>
